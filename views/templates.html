@@ -1,4 +1,10 @@
 {{ define "body" }}
+	{{ template "serie" . }}
+	{{ template "serie" . }}
+	{{ template "serie" . }}
+{{ end }}
+
+{{ define "serie" }}
 <p>
 Serie: 
 <span>{{ .Serie.Name }}</span>
