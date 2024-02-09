@@ -1,3 +1,14 @@
 {{ define "body" }}
-<span>Initial Text for Test Porpouses</span>
+<p>
+Serie: 
+<span>{{ .Serie.Name }}</span>
+</p>
+<p>
+Fecha de inclusión: 
+<span>{{ .Serie.InclussionDate }}</span>
+</p>
+<p>
+Interés actual: 
+<span> {{ .Serie.InterestLevel }}</span>
+</p>
 {{ end }}
